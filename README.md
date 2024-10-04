@@ -1,5 +1,5 @@
                                          
-                                                TCP_IP_SERVER_DESIGN_PATTERN
+                                                TCP IP NETWORK PROGRAMMING DESIGN PATTERN
 
 Creating connections and sending data across TCP/IP networks requires a sequence of boilerplate calls to multiple operating system level services when using the BSD Sockets API for network programming. This procedure can be laborious and prone to mistakes.
 
