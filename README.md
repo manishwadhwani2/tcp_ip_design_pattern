@@ -1,5 +1,5 @@
                                          
-                                                        TCP_IP_SERVER_DESIGN_PATTERN
+                                                TCP_IP_SERVER_DESIGN_PATTERN
 
 Creating connections and sending data across TCP/IP networks requires a sequence of boilerplate calls to multiple operating system level services when using the BSD Sockets API for network programming. This procedure can be laborious and prone to mistakes.
 
@@ -15,10 +15,13 @@ Tcp_Stream - This is a factory class that creates TCPStream objects upon server
 Build and Run 
 
 Compilation 
+
 make -f makefile.client
+
 make -f makefile.server
 
 Run 
+
 On first terminal Run ./server 9999 localhost
 
 On second terminal Run ./client 9999 localhost
