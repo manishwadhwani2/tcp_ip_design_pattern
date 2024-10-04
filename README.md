@@ -20,6 +20,7 @@ make -f makefile.server
 
 Run 
 On first terminal Run ./server 9999 localhost
+
 On second terminal Run ./client 9999 localhost
 
 
